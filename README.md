@@ -13,6 +13,19 @@ docker run -it --name sample-php-container -v $(pwd):/usr/src/myapp sample-php
 composer install # 初回だけ必要
 ```
 
+## Docker コンテナに入る
+
+```
+docker start sample-php-container
+docker exec -it sample-php-container bash
+```
+
+## PHP_CodeSniffer
+
+```
+./vendor/bin/phpcs --standard=phpcs.xml ./
+```
+
 ## テスト実行
 
 ```
