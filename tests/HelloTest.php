@@ -1,9 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
+namespace Test;
+
 use PHPUnit\Framework\TestCase;
 use App\Hello;
 
-class HelloTest extends TestCase
+final class HelloTest extends TestCase
 {
     public function test_execute()
     {
