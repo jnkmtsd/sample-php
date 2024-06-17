@@ -51,5 +51,8 @@
 			"xmlwriter",
 			"xunit"
 		],
+		"[php]": {
+			"editor.defaultFormatter": "valeryanm.vscode-phpsab"
+		}
 	}
 }
