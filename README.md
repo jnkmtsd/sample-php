@@ -24,6 +24,7 @@ docker exec -it sample-php-container bash
 
 ```
 ./vendor/bin/phpcs --standard=phpcs.xml ./
+./vendor/bin/phpcbf --standard=phpcs.xml ./
 ```
 
 ## テスト実行

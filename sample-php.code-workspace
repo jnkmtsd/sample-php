@@ -46,10 +46,14 @@
 			"tokenizes",
 			"udiff",
 			"unidiff",
+			"valeryanm",
 			"Volker",
 			"xdebug",
 			"xmlwriter",
 			"xunit"
 		],
+		"[php]": {
+			"editor.defaultFormatter": "valeryanm.vscode-phpsab"
+		}
 	}
 }
