@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\StubMockSample;
+namespace App\T0013\StubMockSample;
 
 class UserService
 {
