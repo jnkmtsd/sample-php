@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Test\StubMockSample;
+namespace Test\T0013\StubMockSample;
 
-use App\StubMockSample\UserDatabaseClient;
+use App\T0013\StubMockSample\UserDatabaseClient;
 use PHPUnit\Framework\TestCase;
-use App\StubMockSample\UserService;
+use App\T0013\StubMockSample\UserService;
 
 final class UserServiceTest extends TestCase
 {
