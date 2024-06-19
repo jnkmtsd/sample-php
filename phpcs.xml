@@ -5,8 +5,5 @@
     <rule ref="PSR12" />
     <arg name="colors" />
     <arg value="ps" />
-    <rule ref="PSR1.Methods.CamelCapsMethodName">
-        <exclude-pattern>/tests/</exclude-pattern>
-    </rule>
     <exclude-pattern>/vendor/</exclude-pattern>
 </ruleset>

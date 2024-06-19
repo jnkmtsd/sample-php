@@ -10,7 +10,7 @@ use App\T0013\StubMockSample\UserService;
 
 final class UserServiceTest extends TestCase
 {
-    public function test_getInfo()
+    public function testGetInfo()
     {
         // スタブ
         $expected = 'dbms: mysql,host: localhost,dbname: test,charset: utf8,';
@@ -29,7 +29,7 @@ final class UserServiceTest extends TestCase
         $this->assertSame($expected, $actual);
     }
 
-    public function test_register()
+    public function testRegister()
     {
         // モック
         $param = [
